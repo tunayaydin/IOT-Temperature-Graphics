@@ -1,8 +1,8 @@
 #include "DHT.h"
 #define DHTTYPE DHT11
 #define DHTPIN 7
-#define ag_ismi "SUPERONLINE_WiFi_0869"
-#define ag_sifresi "EKTCRHCYUA4P"
+#define ag_ismi "WiFi_NAME"
+#define ag_sifresi "WiFi_SIFRE"
 #define IP "184.106.153.149"    //thingspeak.com IP adresi
 DHT dht(DHTPIN, DHTTYPE);
 
